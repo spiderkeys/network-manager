@@ -104,6 +104,10 @@ impl AccessPoint {
     pub fn ssid(&self) -> &SsidSlice {
         &self.ssid
     }
+
+    pub fn strength(&self) -> u32 {
+        self.strength
+    }
 }
 
 bitflags! {
